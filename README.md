@@ -42,10 +42,7 @@ python -m scripts.validate_finding findings/final.2.json findings.schema
 6) Reproduce in notebook
 Open `notebooks/submit_repro.ipynb` and run all cells. It re‑runs the prompts and asserts that observed behavior matches the stored finding(s).
 
-### Submission tips
-- Upload up to 5 findings (each as a separate private Kaggle Dataset) and attach them to your Kaggle Writeup.
-- Keep the Writeup under 3,000 words; include strategy, discovery process, tooling, threat analysis, and lessons learned.
-- Optional: link this repo (tag a release), and include the repro notebook.
+
 
 ### Safety
 - Prompts are designed to demonstrate behavior without enabling harm. Avoid adding actionable instructions.
